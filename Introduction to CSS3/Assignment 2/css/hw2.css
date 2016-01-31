@@ -1,0 +1,79 @@
+/* css style sheet for CSS3 course in Web Design for Everybody */
+
+header{
+     background-image:url("../images/flywheel.jpg");
+     background-attachment:local;
+     background-color:#00B3B6;
+     padding:15px;
+     height:150px;
+}
+
+body{
+	padding:15px;
+	margin:5px;
+}
+
+
+h1{
+	text-align:center;
+	color:#FFB3B6;
+	text-transform:uppercase;
+}
+
+
+h2{
+	color:#F6D4C2;
+}
+nav a{
+	display:inline-block;
+        margin:5px;
+        border-radius:25px;	
+        text-decoration:underline;
+        padding:5px;
+}
+
+img{
+
+	display: inline-block;
+
+	margin: 5px;
+
+	padding: px;
+
+	width: 205px;
+
+	height: 115px;
+
+	border: 2px solid #996600;
+
+}
+section{
+	background-color:#FF03D6;
+	display:inline-block;
+}
+
+.left{
+	width:25%;
+	float:left;
+	background-color:#E445D5;
+	text-align:center;
+	
+
+}
+.right{
+
+	width:75%;
+	float:right;
+}
+
+.aside {
+	display:inline-block;
+	background-color:#13E5D6
+	color:#F613E5
+	text-align:center;
+}
+
+.active{
+	background-color:#F233B6
+	
+}

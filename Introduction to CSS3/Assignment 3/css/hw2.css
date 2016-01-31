@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 24px;
+    height: 100%;
+    margin: 1%;
+    padding: 1%;
+}
+
+main {
+    height: 100%;
+}
+
+header {
+    background-color: #B2B2B2;
+    background-image: url(../images/flywheel.jpg);
+    background-size: cover;
+    padding: 1%;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav a {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    color: #000000;
+    display: inline-block;
+    margin: 4%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+}
+
+.active {
+    background-color: #FFFFFF;
+}
+
+.left {
+    background-color: #777613;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.right {
+    display: inline-block;
+    padding: 1%;
+    width: 75%;
+}
+
+img {
+    border: 1px solid #000000;
+    display: block;
+    margin: 32px auto;
+    width: 80%;
+}
+
+table{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size:15px;
+		line-height: 14px;
+		width:80%;
+		margin:4%;
+}
+
+
+th{ text-align:left;
+	background: #69C032;
+	color:#FFFFFF;
+	background: -moz-linear-gradient(top, #88D094 80%, #E5F9E3 100%);
+	background: -webkit-linear-gradient(#88D094 80%, #E5F9E3 100%);
+	background: -o-linear-gradient(#88D094 80%, #E5F9E3 100%);
+	background: linear-gradient(#88D094 80%, #E5F9E3 100%); 
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	border: 1px solid white;
+	border-bottom:2px solid white;
+}
+th:first-child{width:50%; }
+
+th:first-child + th { text-align: center; }
+th:first-child + th + th { text-align: center; }
+td:first-child + td { text-align: center; }
+td:first-child + td + td { text-align: center; }
+
+td{ opacity:.8;
+	width:75px;
+	height:30px;
+	vertical-align:center;
+	background: #D6F1DA;
+	padding:2px;
+	color:#FFFFF;
+	border-radius:2px;
+}
+
+td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 15px;
+}
+
+
+td:hover{
+	opacity:1;
+	text-shadow: 1px 1px 1px #A4A9EF;
+	
+
+}

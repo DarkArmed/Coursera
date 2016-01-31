@@ -1,0 +1,44 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	margin: 20px 20px 20px 20px;
+	background-color: #CCDDFF;
+}
+
+main
+{
+	margin: 20px 20px 20px 20px;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Verdana;
+}
+
+h2
+{
+	color: rgb(255,200,200);
+}
+
+section
+{
+	background-color: rgb(200,255,200);
+}
+
+a
+{
+	text-align: center;
+	font-family: Verdana;
+	background-color: purple;
+}
+
+img
+{
+	display: none;
+}

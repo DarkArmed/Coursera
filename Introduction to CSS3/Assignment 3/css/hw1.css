@@ -1,0 +1,121 @@
+body {
+    padding: 0 10px;
+    margin: 0 20px;
+}
+
+header {
+    background-color: #9CF;
+    background-image: url(../images/flywheel.jpg);
+    background-size: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    display: block;
+    margin: 10px auto;
+}
+
+nav a {
+    display: inline-block;
+    margin: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 20px;
+    width: 15%;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+nav a.active {
+    background-color: #FFF;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    display: block;
+    margin: 10px;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    padding: 0 10px;
+    background-color: #737B04;
+}
+
+aside img {
+    display:block;
+    width: 80%;
+    margin: 30px auto;
+    border: solid 2px #000;
+}
+
+section {
+    width: 77%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+table {
+    font-family: "Lucida Sans";
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 200%;
+    width: 80%;
+    margin: 10px auto;
+}
+
+tr {
+    opacity: 0.8;
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+th {
+    padding: 10px 15px;
+    color: #FFF;
+    background: #894;
+    background: -webkit-linear-gradient(#7A4, #884); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#7A4, #884); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#7A4, #884); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#7A4, #884); /* Standard syntax */
+    background: linear-gradient(#7A4, #884); /* Standard syntax */
+    border: 1px solid #A3DE43;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 3px solid #A3DE43;
+    min-width: 95px;
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px;
+    color: #555;
+    background: #DFC;
+    border-radius: 2px;
+    text-shadow: 1px 1px #FFF;
+}
+
+tr > :first-child {
+    text-align: left;
+}
+
+/* Special properties */
+th:hover {
+    transform: translateY(-3px) scaleY(1.1);
+    font-size: 120%;
+}

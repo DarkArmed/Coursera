@@ -1,0 +1,29 @@
+header{
+background:#AEE7F2 ;
+text-align: center;
+}
+h1 {
+font-size:200%;
+color:#3A2CDB;
+font-variant: small-caps;
+}
+h2 {
+	color:#3A2CDB;
+  text-align: center;
+  font-variant: small-caps;
+}
+nav{
+	font-size: 150%;
+	font-family:Arial;
+  text-align:left;
+}
+ a {
+	background-color: #2535E6;
+	color: #EDEEF5;
+}
+aside {
+	display:none;
+}
+section{
+	background: #B8B8BF;
+}

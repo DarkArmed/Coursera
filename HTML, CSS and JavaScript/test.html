@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      function do_something() {
+        var theBody = document.getElementsByTagName("body")[0];
+        var theImg = document.createElement("img");
+        theImg.src = "cat.png";
+        theBody.appendChild(theImg.cloneNode(true));
+        var count = 0;
+        for (var i = 0; i < 10; i++, count++) {
+            if (i == 5) continue;
+            if (count == 3) {
+                count = 0;
+                theBody.removeChild(theBody.lastChild);
+            } else {
+                theBody.appendChild(theImg.cloneNode(true));
+            }
+            if (i > 7) break;
+        }
+      }
+    </script>
+  </head>
+  <body onload="do_something()"></body>
+</html>

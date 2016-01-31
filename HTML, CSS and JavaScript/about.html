@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>all about me</h1>
+
+    <a href="index.html">back</a>
+
+    <script>
+        var todo = ["see doctor", "do assignment", "pay rent", 
+            "check bank account", "clean room"];
+        var priority = [3, 4, 1, 2, 5];
+        var index = 0;
+        var todoInOrderOfPriority = [];
+
+        todoInOrderOfPriority.length = todo.length;
+
+        while ( index < todo.length ) {
+                position = priority.indexOf( index+1 );
+                todoInOrderOfPriority[index] = todo[position];
+                index++;
+        }                            
+        alert("Previous order:\n\n" + todo + "\n\n"
+         + "Now in order of priority:\n\n" + todoInOrderOfPriority);
+
+        alert( 
+        "index=" + index + "\n" +
+        "index+1=" + (index+1) + "\n" +   
+        "position=" + position + "\n" +
+        "todo=" + todo + "\n" +
+        "todoInOrderOfPriority=" + todoInOrderOfPriority );
+    
+    </script>
+</body>
+</html>

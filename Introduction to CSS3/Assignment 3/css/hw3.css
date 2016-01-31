@@ -1,0 +1,104 @@
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    }
+header { background-color: #808080;
+        background-image: url("../images/flywheel.jpg");
+        padding: 5px;
+        }
+
+image {
+    border: 20px solid #73AD21; 
+    width: 100%;
+    display: block;
+    }
+
+h2 {
+    color: #0000FF;
+    text-transform: uppercase;
+    }
+section {
+     background-color: 	#FFFFFF;
+        }
+.right{
+     	display: inline-block;
+        width: 77.5%;
+        float: right;
+        height: 100%;
+        }
+.left{	
+        width: 20%;
+        Height: 100%;
+        float: left;
+        display: inline-block;
+        background-color: #98FB98;
+       
+}
+left > image {
+    border: 20px solid #73AD21; 
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    }
+
+body {
+    padding: 15px;
+    margin: 15px;
+    }
+.active {
+    background-color: 	#F7F5F5;
+    color: #3A307F;
+    }
+nav > a {
+            margin: 35px;
+            font-size: 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 5px;
+            display: inline-block;
+}
+ table {height: 80vh;
+        margin: 0 auto;
+        background-color: #DBD1D1;
+        border-style:solid;
+        border-radius: 10px 10px 0 0;
+        border: 5px;
+        padding: 5px;
+                }
+            
+th{font-family: armenian;
+   font-size: 25px;
+   line-height: 25px;
+   background-color: #2E8B57;
+   border-style: solid;
+   border-width: 15px 10px 15px 10px;	
+   border-color: #8FBC8F;
+   background: -webkit-linear-gradient(to right #2E8B57, #20B2AA); /* For Safari*/
+   background: -o-linear-gradient(to right #2E8B57, #20B2AA); /* For Opera*/
+   background: -moz-linear-gradient(to right #2E8B57, #20B2AA); /* For Firefox*/
+   background: linear-gradient(to right #2E8B57, #20B2AA);
+    }
+th:first-child {
+border-radius: 10px 0 0 0;}
+th:last-child {
+    border-radius: 0 10px 0 0;}
+td {text-align: center;
+    font-family: Georgia;
+    font-size:20px;
+    color:#0E0101;
+    }
+    
+td:first-child{
+text-align: left;}
+
+    
+tr{
+   line-height: 20px;
+   opacity: 0.8;}
+tr:hover {
+    opacity: 1;}
+
+
+            
