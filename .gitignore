@@ -1,6 +1,11 @@
 # presentations
-.pdf
-
+*.pdf
+*.ppt
+*.pptx
 
 # mac
-.DS_Store
+.DS_Store*
+
+# folders
+**/02_Introduction_to_JavaScript/
+**/03_Advanced_JavaScript/
