@@ -2,10 +2,11 @@
 *.pdf
 *.ppt
 *.pptx
+02_Introduction_to_JavaScript/
+03_Advanced_JavaScript/
 
 # mac
 .DS_Store*
 
-# folders
-**/02_Introduction_to_JavaScript/
-**/03_Advanced_JavaScript/
+# logs
+*.log
