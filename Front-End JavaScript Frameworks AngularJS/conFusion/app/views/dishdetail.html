@@ -7,7 +7,7 @@
         <div class="media">
           <div class="media-left media-middle">
             <a href="#">
-              <img class="media-object img-thumbnail" ng-src={{dish.image}} alt="Uthappizza">
+              <img class="media-object img-thumbnail" ng-src={{dish.image}} alt={{dish.name}}>
             </a>
           </div>
           <div class="media-body">
@@ -46,7 +46,7 @@
           <div class="form-group form-inline">
             <label for="rating" class="col-sm-2 control-label">Number of Stars</label>
             <div class="col-sm-10">
-                <label class="radio-inline" ng-repeat="rate in rates">
+                <label class="radio-inline" ng-repeat="rate in [1, 2, 3, 4, 5]">
                   <input type="radio" name="rating" value={{rate}} ng-model="comment.rating">{{rate}}&nbsp;
                 </label>
                 <!-- <label class="radio-inline"><input type="radio" name="rating" value=1 ng-model="comment.rating"> 1</label> -->
