@@ -24,7 +24,7 @@ gulp.task('jshint', function() {
 
 // Clean
 gulp.task('clean', function() {
-  return del(['dist']);
+  return del(['dist', '../json-server/public/'], {force: true});
 });
 
 // Default task
@@ -39,7 +39,8 @@ gulp.task('usemin',['jshint'], function () {
       css:[minifycss(),rev()],
       js: [ngannotate(), uglify(),rev()]
     }))
-    .pipe(gulp.dest('dist/'));
+    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('../json-server/public/'));
 });
 
 // Images
@@ -47,14 +48,17 @@ gulp.task('imagemin', function() {
   return del(['dist/images']), gulp.src('app/images/**/*')
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('dist/images'))
+    .pipe(gulp.dest('../json-server/public/images'))
     .pipe(notify({ message: 'Images task complete' }));
 });
 
 gulp.task('copyfonts', ['clean'], function() {
   gulp.src('./bower_components/font-awesome/fonts/**/*.{ttf,woff,eof,svg}*')
-  .pipe(gulp.dest('./dist/fonts'));
+  .pipe(gulp.dest('./dist/fonts'))
+  .pipe(gulp.dest('../json-server/public/fonts'));
   gulp.src('./bower_components/bootstrap/dist/fonts/**/*.{ttf,woff,eof,svg}*')
-  .pipe(gulp.dest('./dist/fonts'));
+  .pipe(gulp.dest('./dist/fonts'))
+  .pipe(gulp.dest('../json-server/public/fonts'));
 });
 
 
