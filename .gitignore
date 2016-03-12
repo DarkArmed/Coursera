@@ -13,3 +13,6 @@
 
 # sublime
 *.sublime-workspace
+
+# server
+json-server
